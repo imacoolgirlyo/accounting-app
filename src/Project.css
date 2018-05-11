@@ -1,0 +1,13 @@
+.BudgetStatus {
+  display: flex;
+}
+
+.Category {
+  margin: 20px;
+  border-style: dotted;
+  border-width: 2px;
+}
+
+.Detail__Name {
+  margin-right: 5px;
+}
