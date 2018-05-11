@@ -8,6 +8,7 @@ class Project extends Component {
     return (
       <div>
         <BudgetStatus categories={this.props.categories} />
+        <UserInput />
       </div>
     );
   }
