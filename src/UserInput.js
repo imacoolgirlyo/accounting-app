@@ -46,10 +46,20 @@ class UserInput extends Component {
               { value: "사무용품비", lable: "국내여비" }
             ]}
           />
+          <InputDetail />
         </div>
       </div>
     );
   }
 }
 
+class InputDetail extends Component {
+  render() {
+    return (
+      <form>
+        <input type="text" value="" />
+      </form>
+    );
+  }
+}
 export default UserInput;

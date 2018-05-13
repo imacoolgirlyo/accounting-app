@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import "./Project.css";
 import UserInput from "./UserInput";
+import Report from "./Report";
 
 class Project extends Component {
   render() {
-    console.log(this.props.categories);
     return (
       <div>
         <BudgetStatus categories={this.props.categories} />
         <UserInput />
+        <Report categories={this.props.categories} />
       </div>
     );
   }
@@ -48,7 +49,6 @@ class BudgetStatus extends Component {
 }
 class Category extends Component {
   render() {
-    console.log(this.props.categories);
     var details = this.props.categories.map(category => {
       return (
         <CategoryDetail
