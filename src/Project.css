@@ -1,11 +1,33 @@
 .BudgetStatus {
   display: flex;
+  margin: 20px;
+  justify-content: space-around;
 }
 
-.Category {
-  margin: 20px;
-  border-style: dotted;
-  border-width: 2px;
+.category {
+  padding: 20px;
+  width: 20%;
+  background-color: antiquewhite;
+  box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3),
+    0 5px 12px rgba(133, 133, 133, 0.22);
+  position: relative;
+}
+
+.category__title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.category__main {
+  margin-bottom: 10px;
+}
+.category__balance {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin-top: 10px;
+  font-size: 13px;
 }
 
 .Detail__Name {

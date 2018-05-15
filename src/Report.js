@@ -40,7 +40,7 @@ class ReportCategory extends Component {
       return <ReportCategoryRow title={detail.detail} usages={detail.usages} />;
     });
     return (
-      <div>
+      <div className="report__category">
         <h2>{this.props.title}</h2>
         {details}
       </div>

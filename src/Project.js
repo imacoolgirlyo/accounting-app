@@ -59,9 +59,10 @@ class Category extends Component {
       );
     });
     return (
-      <div className="Category">
-        <h3> {this.props.title}</h3>
-        {details}
+      <div className="category">
+        <div className="category__title"> {this.props.title} </div>
+        <div className="category__main">{details}</div>
+        <div className="category__balance"> 총 : 3,800,000</div>
       </div>
     );
   }
